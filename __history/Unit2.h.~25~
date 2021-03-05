@@ -1,0 +1,18 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit2H
+#define Unit2H
+#include <string>
+using namespace std;
+
+//---------------------------------------------------------------------------
+class MyString
+{
+	private:
+    string Trim(string s0);
+
+	public:
+	bool Ispalindrome(string s);
+};
+
+#endif

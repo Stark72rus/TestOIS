@@ -1,0 +1,21 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit2H
+#define Unit2H
+#include <string>
+using namespace std;
+
+//---------------------------------------------------------------------------
+class MyString
+{
+	private:
+	string s;
+	void Trim();
+	void Lowercase();
+
+	public:
+	void SetString(string s0);
+	bool IsPalindrome();
+};
+
+#endif
